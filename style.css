@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    background-color: lightgrey;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 0 30px;
+}
+
+nav>a:hover {
+    color: cornflowerblue;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.aboutUs {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutUs img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.aboutUs-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs-description * {
+    padding: 5px;
+}
+
+.myGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.myGame * {
+    text-align: center;
+}
+
+.myGame input,
+.myGame button {
+    border: none;
+    margin: 5px;
+    min-height: 30px;
+}
+
+.myGame button {
+    width: max-content;
+    background-color: lightblue;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.myGame input {
+    background-color: lightsteelblue;
+    outline: none;
+}
+
+.choosed_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choosed_block-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 650px;
+}
+
+.choosed_block-container>div {
+    width: 145px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: darksalmon;
+}
+
+.choosed_element {
+    border: 2px solid black;
+}
+
+.posts_block {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.posts_block h2 {
+    text-align: center;
+}
+
+.posts_block-container>* {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
